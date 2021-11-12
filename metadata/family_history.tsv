@@ -1,0 +1,13 @@
+case_id	case_submitter_id	project_id	relationship_age_at_diagnosis	relationship_gender	relationship_primary_diagnosis	relationship_type	relative_with_cancer_history	relatives_with_cancer_history_count
+77163cf2-4651-475f-9d60-4306c1712ed7	HCM-CSHL-0073-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+27e13777-6ed1-4411-a935-245ba6953cf5	HCM-CSHL-0079-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+d7fc5874-8ae0-4357-9d8d-01af39ee521f	HCM-CSHL-0092-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+74250d5d-e275-4315-8775-589aa79c7fac	HCM-BROD-0344-C25	HCMI-CMDC	'--	'--	'--	'--	unknown	'--
+03bfeb7c-cecf-4691-8263-33cdfe391ea9	HCM-BROD-0124-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+6796ddd8-0295-4965-911c-d4ad67232d13	HCM-CSHL-0091-C25	HCMI-CMDC	'--	'--	Pancreas Cancer	'--	yes	'--
+18909e2d-a178-49b3-9a70-998f944af8a3	HCM-BROD-0009-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+c5e9a845-e0ff-4612-aa8e-c310098503a7	HCM-CSHL-0089-C25	HCMI-CMDC	'--	'--	Cancer	'--	yes	'--
+22f26b5c-41b7-4142-9d87-6cf8b7fee3af	HCM-BROD-0229-C25	HCMI-CMDC	'--	'--	'--	'--	unknown	'--
+fb50c60e-d191-474b-a5eb-19b922db6688	HCM-CSHL-0094-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+9e615018-8669-4dd6-8265-25e766a34dd0	HCM-CSHL-0090-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
+6a8427ec-14cc-4168-a536-12c8ad27ba89	HCM-CSHL-0093-C25	HCMI-CMDC	'--	'--	'--	'--	no	'--
