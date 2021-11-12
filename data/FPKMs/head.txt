@@ -1,0 +1,2 @@
+gene_id	FPKM
+gene_id                 FPKM
