@@ -1,0 +1,8 @@
+# 1: Update
+The Hierarchical Clustering base code has been integrated into the streamlit API and is located in the code folder under the name **babylon.py**. User input for genes, log scale options and color scale options are already implemented. Loading data is taking care of using the streamlit caching option currently so the first load of the app takes a bit, but afterwards, the app run's relatively quickly. I've also added a download csv button to allow users to download their selected genes from the database to examine their FPKMs if they wish too. 
+# 2: Next Steps
+The next step is to add covariates option to the script and to speed up the overall script by implementing callback functions and sessions states as this seems to be the alternative to using asynchronous calling in the streamlit API. In addition, I plan on adding a button that will allow users to download the clustermap they create as a png so they can use it for whatever they like rather than just screenshotting it. 
+# 3: Data
+The large dataframe as stated previously is stored in the data folder as **Hugo_data.csv**. All of the FPKM files for each sample are stored in the FPKMs folder within the data folder. 
+# 4: Known Issues 
+  1. The overall runtime for the app is a bit slower than expected as when the app is rerun, or if any option is changed such as log scale or the color of the clustermap is changed, the whole script reruns which adds a lot of runtime to the app. In order to avoid this, I am looking into session states and callback functions to speed this process up.
