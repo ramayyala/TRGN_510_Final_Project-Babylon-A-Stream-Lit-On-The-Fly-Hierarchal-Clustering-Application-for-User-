@@ -15,11 +15,11 @@ st.title('Babylon: A Stream-Lit On-The-Fly Hierarchal Clustering Application for
 
 @st.cache
 def load_data():
-    df = pd.read_csv("../data/Hugo_data.csv")
+    df = pd.read_csv("data/Hugo_data.csv")
     return df
 @st.cache
 def load_covariates():
-    covariates=pd.read_csv("../data/covariates.csv")
+    covariates=pd.read_csv("data/covariates.csv")
     return covariates
 # Create a text element and let the reader know the data is loading.
 data_load_state = st.text('Loading data...')
