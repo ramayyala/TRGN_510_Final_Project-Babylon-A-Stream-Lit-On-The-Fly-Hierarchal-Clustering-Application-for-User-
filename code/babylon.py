@@ -11,7 +11,6 @@ from enum import Enum
 from io import BytesIO, StringIO
 from typing import Union
 import streamlit as st
-import st_state_patch
 st.title('Babylon: A Stream-Lit On-The-Fly Hierarchal Clustering Application for User Gene Lists')
 
 @st.cache
