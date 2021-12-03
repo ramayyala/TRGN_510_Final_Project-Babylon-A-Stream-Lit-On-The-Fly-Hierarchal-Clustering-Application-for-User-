@@ -37,7 +37,8 @@ gene_list = user_input.split()
 
 #Grab selected genes
 #st.write(gene_list)
-df_selected=df[df['gene_id'].isin(gene_list)]
+df_selected = df.query('gene_id in @gene_list')
+#df_selected=df[df['gene_id'].isin(gene_list)]
 #st.write(df_selected)
 df_selected = df_selected.set_index('gene_id')
 df_selected=df_selected.astype('float16')
