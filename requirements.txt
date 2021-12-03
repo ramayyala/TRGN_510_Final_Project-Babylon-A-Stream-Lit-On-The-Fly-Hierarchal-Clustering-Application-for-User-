@@ -2,4 +2,5 @@ scipy
 pandas==1.3.2
 numpy
 seaborn
-matplotlib.pyplot
+matplotlib
+streamlit==1.2.0
