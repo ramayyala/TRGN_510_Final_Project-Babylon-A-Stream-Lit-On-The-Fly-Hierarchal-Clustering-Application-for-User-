@@ -15,7 +15,7 @@ st.title('Babylon: A Stream-Lit On-The-Fly Hierarchal Clustering Application for
 
 @st.cache
 def load_data():
-    df = pd.read_csv("https://media.githubusercontent.com/media/ramayyala/final_project/main/data/Hugo_data.csv?token=AJY732KBBBNKYOANYQLOFQDB3D42U")
+    df = pd.read_csv("https://media.githubusercontent.com/media/ramayyala/final_project/main/data/Hugo_data.csv?token=AJY732N4CIVTCMBYL2HEXATB564WU")
     return df
 @st.cache
 def load_covariates():
